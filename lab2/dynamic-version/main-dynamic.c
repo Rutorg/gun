@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     
     int (*libFunction)(char *sourceText, char *resultText, int fileSize, const int MAX_REPLACES);
     
-    ext_library = dlopen("/home/rutorg/gun/lab2/dynamic-version/liblab1.so", RTLD_LAZY);
+    ext_library = dlopen("liblab1.so", RTLD_LAZY);
     if (!ext_library) {
         fprintf(stderr,"dlopen() error: %s\n", dlerror());
         return -1;
