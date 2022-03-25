@@ -1,2 +1,2 @@
 # gun
-labs for system programming on linux
+Labs for system programming on linux
